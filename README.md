@@ -69,7 +69,7 @@ https://www.oracle.com/java/technologies/javase-downloads.html</a>&nbsp;</p>
 
 <h3 align="left">
 Java Download </h3>
-<p align="left" <img src="https://github.com/rajkumarrt/icons/blob/main/jdk%20install.PNG"/> </a>
+<p align="left" <img src="https://github.com/rajkumarrt/icons/blob/main/jdk%20install.PNG" alt="download"/> </a>
 
 
 
