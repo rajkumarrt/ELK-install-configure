@@ -1,24 +1,15 @@
 # ELK-install-configure
 
-<h3> #Pre Pre Requisite</h3>
-<div class="snippet-clipboard-content position-relative" data-snippet-clipboard-copy-content="ELK"><pre><code>
-User : root or user with root privilege 
-OS: Ubuntu 18.x above
-Memory : 4GB
-CPU: 2
-Java: Oracle JDK 8 Version 
-</code></pre></div>
-
-<h3> #Pre Pre Requisite</h3>
-<div class="snippet-clipboard-content position-relative" data-snippet-clipboard-copy-content="ELK"><pre><code>
-User : root or user with root privilege 
-OS: Ubuntu 18.x above
-Memory : 4GB
-CPU: 2
-Java: Oracle JDK 8 Version 
-</code></pre></div>
-
 <h3> #Pre Requisite</h3>
+<div class="snippet-clipboard-content position-relative" data-snippet-clipboard-copy-content="ELK"><pre><code>
+User : root or user with root privilege 
+OS: Ubuntu 18.x above
+Memory : 4GB
+CPU: 2
+Java: Oracle JDK 8 Version 
+</code></pre></div>
+
+<h3> #Update the system</h3>
 <div class="snippet-clipboard-content position-relative" data-snippet-clipboard-copy-content="ELK"><pre><code>
 vagrant@linux:~$ sudo apt update
 
