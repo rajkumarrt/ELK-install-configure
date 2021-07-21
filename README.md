@@ -249,9 +249,10 @@ Comment below lines
 
 vagrant@linux:~$ sudo vim /etc/filebeat/filebeat.yml
 
+Comment below line
 #output.elasticsearch:
-  # Array of hosts to connect to.
-  #hosts: ["localhost:9200"]
+# Array of hosts to connect to.
+#hosts: ["localhost:9200"]
 
 Uncomment below lines
 output.logstash:
