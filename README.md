@@ -112,17 +112,7 @@ uncomment  the below lines
 #http.port: 9200)
 
 Change (network.host: 192.168.0.1 to network.host: localhost)
-
-# ---------------------------------- Network -----------------------------------
-#
-# By default Elasticsearch is only accessible on localhost. Set a different
-# address here to expose this node on the network:
-#
 network.host: localhost
-#
-# By default Elasticsearch listens for HTTP traffic on the first free port it
-# finds starting at 9200. Set a specific HTTP port here:
-#
 http.port: 9200
 </code></pre></div>
 
@@ -130,7 +120,7 @@ http.port: 9200
 <div class="snippet-clipboard-content position-relative" data-snippet-clipboard-copy-content="ELK"><pre><code>
 uncomment -Xms and -Xmx and provide value of 512m
 
-##New Value
+New Value
 -Xms512m
 -Xmx1024m
 </code></pre></div>
@@ -163,7 +153,7 @@ vagrant@linux:~$curl http://localhost:9200
   "tagline" : "You Know, for Search"
 }
 </code></pre></div>
-------------------------------------------------------------------------------------------
+-------------------------------------------------------------
 <h3> #Install Kibana </h3>
 <div class="snippet-clipboard-content position-relative" data-snippet-clipboard-copy-content="ELK"><pre><code>
 vagrant@linux:~$sudo apt-get install kibana
@@ -195,7 +185,7 @@ vagrant@linux:~$ sudo ufw allow 5601/tcp
 Rules updated
 Rules updated (v6)
 </code></pre></div>
-===========================================================================================================================
+-------------------------------------------------------------
 <h3> #Install Logstash </h3>
 <div class="snippet-clipboard-content position-relative" data-snippet-clipboard-copy-content="ELK"><pre><code>
 vagrant@linux:~$ sudo apt-get install logstash
@@ -228,7 +218,7 @@ vagrant@linux:~$ sudo systemctl start logstash
 vagrant@linux:~$ sudo systemctl enable logstash
 Created symlink /etc/systemd/system/multi-user.target.wants/logstash.service → /etc/systemd/system/logstash.service.
 </code></pre></div>
-=======================================================================================================================================
+--------------------------------------------------------------------------
 
 <h3> # Install Filebeat</h3>
 <div class="snippet-clipboard-content position-relative" data-snippet-clipboard-copy-content="ELK"><pre><code>
